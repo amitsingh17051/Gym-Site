@@ -1,0 +1,268 @@
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+.mt-6 {
+  margin-top: 100px;
+}
+
+li.nav-item a.nav-link {
+  color:white !important;
+  &:hover {
+    color:#ccc !important;
+  }
+}
+.nav-links {
+   li.nav-item a.nav-link {
+    color:#111 !important;
+    &:hover {
+      color:#ccc !important;
+    }
+  }
+}
+
+
+
+
+body {
+  font-family: 'ABeeZee', sans-serif;
+  line-height:30px;
+}
+.jumbotron {
+  background-color:#f9f9f9;
+}
+
+
+.hero {
+  background:url('https://gym.oceanwp.org/wp-content/uploads/2016/11/img_20310546.jpg');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-origin:center;
+  background-size:cover;
+  background-attachment: fixed;
+  height:650px;
+  z-index:1;
+  position: relative;
+  .costomer-overlay {
+    background-color: #000;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index:-5;
+  }
+  
+}
+
+.about_hero {
+  background:url('https://gym.oceanwp.org/wp-content/uploads/2016/05/img_41025836.jpg');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-origin:center;
+  background-size:cover;
+  background-attachment: fixed;
+  height:100px;
+  z-index:1;
+  position: relative;
+  .costomer-overlay {
+    background-color: #000;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index:-5;
+  }
+}
+
+nav {
+  border-bottom:1px solid #666;
+  transition:all 0.3s ease-in; 
+}
+
+.fixed {
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:-1;
+}
+
+.header {
+  z-index:-4;
+  position: relative;
+  padding-top:200px;
+  h1 {
+    font-size:54px;
+    letter-spacing:10px;
+    font-weight:700;
+  }
+  p {
+    font-size:18px;
+  }
+  .btn {
+    border-radius:0px;
+    font-size:14px;
+    padding:15px 45px;
+  }
+}
+
+.content {
+  h4 {
+    letter-spacing:3px;
+    color:#333333;
+  }
+  p {
+    color:#929292;
+  }
+}
+
+
+.exer {
+  padding-top:50px;
+}
+
+.exer-2 {
+  margin-top:100px;
+  h4 {
+    letter-spacing:3px;
+  }
+  p {
+    color:#929292;
+  }
+}
+
+.trainer {
+  margin-top:100px;
+  h4 {
+    letter-spacing:3px;
+  }
+  p {
+    color:#929292;
+  }
+  
+  .card {
+    border:none;
+  }
+  
+  .trainer-icon {
+    
+    display:flex;
+    justify-content:space-around;
+    i {
+      color:#929292;
+    }
+  }
+}
+
+
+
+
+.customer {
+  background:url('https://gym.oceanwp.org/wp-content/uploads/2016/05/img_54781236.jpg');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-origin:center;
+  background-size:cover;
+  background-attachment: fixed;
+  height:650px;
+  z-index:0;
+  margin-top:100px;
+  position: relative;
+  .costomer-overlay {
+    background-color: #000;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index:-10;
+  }
+  
+  h4 {
+    letter-spacing:3px;
+  }
+  p {
+    color:#929292;
+  }
+  
+}
+
+.exer-4 {
+  
+  h4 {
+    letter-spacing:3px;
+  }
+  p {
+    color:#929292;
+  }
+}
+
+.pricing {
+  margin-top:150px;
+   h4 {
+    letter-spacing:3px;
+  }
+  p {
+    color:#929292;
+  }
+}
+.blog {
+  .card img {
+    position: relative;
+  }
+
+  
+  .overlay {
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity:0;
+    transition:all 0.3s ease-in;
+    .overlay-btn {
+      position: relative;
+      top:20%;
+    }
+  }
+  
+    
+  .overlay:hover  {
+    opacity:0.5;
+  }
+  
+  .icon {
+    display:flex;
+    justify-content:space-between;
+    i {
+      color:#aaa;
+    }
+  }
+  
+}
+
+.timetable {
+  .fas, .far {
+    color:#175827;
+  }
+  h3 {
+    color:#175827;
+  }
+}
+
+
+footer {
+  .fab {
+    color:#aaa;
+  }  
+  .footer-icon {
+    display:flex;
+    justify-content:space-between;
+  }
+  
+}
